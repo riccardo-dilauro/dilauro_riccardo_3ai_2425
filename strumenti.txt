@@ -1,0 +1,30 @@
+Chitarra
+Violino
+Viola
+Violoncello
+Contrabbasso
+Arpa
+Mandolino
+Ukulele
+Flauto traverso
+Clarinetto
+Oboe
+Fagotto
+Sassofono
+Tromba
+Trombone
+Corno francese
+Tuba
+Batteria
+Tamburo
+Xilofono
+Marimba
+Timpani
+Bongo
+Conga
+Triangolo
+Pianoforte
+Organo
+Clavicembalo
+Fisarmonica
+Sintetizzatore
