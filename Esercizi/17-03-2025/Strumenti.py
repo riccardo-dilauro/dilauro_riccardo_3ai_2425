@@ -33,7 +33,7 @@ def aggiungiStrumento(listaDati, nome, marca, modello, quantita): # Funzione che
         if strumento[0] == nome and strumento[1] == marca and strumento[2] == modello:  
             strumento[3] = ((strumento[3]) + quantita)  
             return listaDati
-    listaDati.append([nome, marca, modello, str(quantita)])
+    listaDati.append([nome, marca, modello, (quantita)])
     return listaDati
 
 
