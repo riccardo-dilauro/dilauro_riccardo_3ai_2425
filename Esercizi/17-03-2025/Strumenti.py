@@ -3,6 +3,7 @@ import time
 
 fileDati = "strumenti.txt"
 
+#Creazione di funzioni
 
 def caricaDati(): # Funzione che carica i dati dal file "strumenti.txt" e li restituisce come lista
     listaDati = []
@@ -122,3 +123,7 @@ def menu():
         
         else:
             print(">> Scelta non valida, riprova.") 
+
+#Sezione ESECUTIVA
+
+menu()
