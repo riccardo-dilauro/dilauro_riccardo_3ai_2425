@@ -1,0 +1,45 @@
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+
+a{text-decoration: none; color: white;}
+
+.navbar{background-color:#306998; color: white; padding-top: 20px; display:flexbox;}
+
+.immagine1 {width: 100px; height: 100px; border-radius: 15px; float: right; float: top; display: inline}
+
+li {display: inline; text-align: center;padding: 10px;}
+
+.titolo{text-align: center;}
+
+.immagine2{padding-top: 40px; padding-bottom: 150px;}
+
+footer{background-color:  #f2f2f2; }
+
+.testofooter{ text-align: center; }
+
+footer{padding-top: 10px; padding-bottom: 1px;}
+
+.box{display: block; margin:50px;}
+
+.box1 > img{width: 250px; height: 250px;border-radius: 15px; float: left;}
+
+.box1 > p > h2{text-align: right; float:right}
+
+.box1{padding: 100px; border: lightgray solid 1px; border-radius: 15px;}
+
+.box2 > img{width: 250px; height: 250px; float: right;border-radius: 15px;}
+
+.box2 > p > h2 {text-align: left; float:left;}
+
+.box2{padding: 100px;border: lightgray solid 1px; border-radius: 15px;}
+
+.box3 > img{width: 250px; height: 250px;border-radius: 15px; float: left;}
+
+.box3 > p > h2{text-align: right; float:right;}
+
+.box3{padding: 100px;border: lightgray solid 1px; border-radius: 15px;}
+
+main{margin: 100px;}
+
+.footer {padding-top: 100px;}
