@@ -1,12 +1,12 @@
-body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body{font-family:}
 
 
 
 a{text-decoration: none; color: white;}
 
-.navbar{background-color:#306998; color: white; padding-top: 20px; display:flexbox;}
+.navbar{background-color:#306998; color: white; padding-top: 20px; padding: 20px ;}
 
-.immagine1 {width: 100px; height: 100px; border-radius: 15px; float: right; float: top; display: inline}
+.immagine1 {width: 100px; height: 100px; border-radius: 15px; float: right;}
 
 li {display: inline; text-align: center;padding: 10px;}
 
@@ -38,7 +38,7 @@ footer{padding-top: 10px; padding-bottom: 1px;}
 
 .box3 > p > h2{text-align: right; float:right;}
 
-.box3{padding: 100px;border: lightgray solid 1px; border-radius: 15px;}
+.box3{padding: 100px;border: lightgray solid 1px; border-radius: 15px; }
 
 main{margin: 100px;}
 
