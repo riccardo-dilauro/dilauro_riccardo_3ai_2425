@@ -1,0 +1,7 @@
+.Navbar > li {display:inline; padding: 20px; background-color: rgb(0, 0, 0); transition:background-color 0.3s linear;}
+
+.Navbar { background-color: black; padding: 20px; display:flex; float:none; margin-top: -10px; position:absolute}
+
+.Navbar > li > a {text-decoration: none; font-family: Arial, Helvetica, sans-serif; color: white; transition: transform 0.2s ease; display: inline-block; font-weight: 700;}
+
+.Navbar > li > a:hover {transform:translateY(-5px); color:orange; font-weight: 700;}
