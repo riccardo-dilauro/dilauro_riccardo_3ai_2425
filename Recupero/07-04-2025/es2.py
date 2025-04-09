@@ -1,20 +1,15 @@
 import os
 os.system("cls")
 
-    #Sezione dichiarativa
+#Sezione dichiarativa
+
 try:
     base = int(input(">> Inserisci un numero dispari.  "))
-
 except:
     print("Errore")
-    #Sezione di richiesta
-
+    
 if base < 3 or base > 20 or base % 2 == 0:
     print(">> Errore: valore non consentito")
-
-
-#Sezione di creazione della chioma
-
 for i in range(1, base + 1, 2):
     for A in range((base - i) // 2):
         print(" ", end="")
@@ -22,7 +17,7 @@ for i in range(1, base + 1, 2):
         print("*", end="")
     print()
 
-#Sezione di creazione del tronco
+
 
 if base == 3:
     print(" +")
