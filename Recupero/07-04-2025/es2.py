@@ -3,15 +3,15 @@ os.system("cls")
 
     #Sezione dichiarativa
 try:
-    base = int(input(">> Inserisci la base dell'albero compresa tra 3 e 20:  "))
+    base = int(input(">> Inserisci un numero dispari.  "))
 
 except:
     print("Errore")
     #Sezione di richiesta
 
-while base < 3 or base > 20 or base % 2 == 0:
-    print(">> Errore: valoren non consentito. Inserisci un numero dispari compreso tra 3 e 20!")
-    base = int(input(">> Inserisci la base dell'albero compresa tra 3 e 20: "))
+if base < 3 or base > 20 or base % 2 == 0:
+    print(">> Errore: valore non consentito")
+
 
 #Sezione di creazione della chioma
 
@@ -25,23 +25,23 @@ for i in range(1, base + 1, 2):
 #Sezione di creazione del tronco
 
 if base == 3:
-    print(" *")
+    print(" +")
 if base == 5:
-    print("  *")
+    print("  +")
 if base == 7:
-    print("   *")
+    print("   +")
 if base == 9:
-    print("    *")
+    print("    +")
 if base == 11:
-    print("     *")
+    print("     +")
 if base == 13:
-    print("      *")
+    print("      +")
 if base == 15:
-    print("       *")
+    print("       +")
 if base == 17:
-    print("        *")
+    print("        +")
 if base == 19:
-    print("         *")
+    print("         +")
 
 
 
