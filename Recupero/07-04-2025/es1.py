@@ -18,3 +18,5 @@ ln = ["Alessio","Carlo","Mauro","Nicola"]
 lc = ["3Bi","5Ai","4Ai","3Ai"]
 
 lenElenchi(ln,lc)
+
+#ln = lista nomi
